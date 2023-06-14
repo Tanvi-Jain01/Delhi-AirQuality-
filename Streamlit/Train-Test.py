@@ -17,7 +17,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.impute import SimpleImputer
 import streamlit as st
 from sklearn.linear_model import LinearRegression
-import pygwalker as pyg
+#import pygwalker as pyg
 
 
 st.title("Geo Spatial Interpolation")
