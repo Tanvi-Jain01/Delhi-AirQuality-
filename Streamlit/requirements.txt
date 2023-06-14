@@ -15,7 +15,7 @@
 streamlit
 scikit-learn
 matplotlib
-matplotlib.pyplot
+
 sklearn
 pandas
 numpy
