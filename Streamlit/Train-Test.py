@@ -55,10 +55,12 @@ stationgeo=gpd.GeoDataFrame(unique,geometry=geometry)
 
 #-------------------------------------------------------------------------------------------------------
 
-gdf_shape = (r'C:\Users\Harshit Jain\Desktop\delhiaq\Delhi\Districts.shp')
+# gdf_shape = (r'C:\Users\Harshit Jain\Desktop\delhiaq\Delhi\Districts.shp')
+# gdf_shape = gpd.read_file(gdf_shape)
+
+
+gdf_shape = (r'https://github.com/Tanvi-Jain01/Delhi-AirQuality-/blob/main/DelhiShpFiles/Districts.shp')
 gdf_shape = gpd.read_file(gdf_shape)
-
-
 #--------------------------------------------------------------------------------------------------------------
 
 gdf_data = gpd.GeoDataFrame(unique, geometry=geometry)
