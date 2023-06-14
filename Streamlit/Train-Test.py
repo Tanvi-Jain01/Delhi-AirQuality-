@@ -18,7 +18,7 @@ from sklearn.impute import SimpleImputer
 import streamlit as st
 from sklearn.linear_model import LinearRegression
 #import pygwalker as pyg
-
+import wget as wget
 
 st.title("Geo Spatial Interpolation")
 
