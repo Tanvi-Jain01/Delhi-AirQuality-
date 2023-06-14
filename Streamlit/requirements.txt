@@ -15,6 +15,9 @@
 streamlit
 scikit-learn
 matplotlib
+matplotlib.pyplot
+sklearn
+pandas
 numpy
 xarray
 altair
@@ -29,7 +32,7 @@ metpy
 pint==0.6
 pyproj==3.5.0
 metpy==1.5.0
-git+https://github.com/SomePackage#egg=SomePackage
+#git+https://github.com/SomePackage#egg=SomePackage
 metpy
 scipy
 pygwalker
