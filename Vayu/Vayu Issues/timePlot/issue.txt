@@ -1,0 +1,4 @@
+ISSUE:
+    plt.subplot(f"{len(pollutants)}1{ix}")
+    
+To fix the issue, modify the line to plt.subplot(len(pollutants), 1, ix+1) as it expects: rows, columns, and index.
