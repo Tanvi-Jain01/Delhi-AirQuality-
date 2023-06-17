@@ -1,0 +1,22 @@
+ISSUE:-
+
+1) df = df.loc[df["Parameter Name"] == some_value]
+
+its expecting a column "Parameter Name" filled with pollutant name, which gives error, that I think is a bug and needs to be rectified. 
+(col="Parameter Name" and values filled with 'pm25' which isn't feasible.)
+
+#------------------------------------------------------------------------------------------------------------
+ 
+After reviewing the code of googleMaps,
+
+2)  some_value = "2018-05-07"
+    df = df.loc[df["Date Local"] == some_value]
+
+'date' is predefined in the code and not taken from the user 
+(dataset may not contain the date which is predefined, it should be taken from the user.)
+
+
+
+   
+#I am willing to rectify these issues.
+    
