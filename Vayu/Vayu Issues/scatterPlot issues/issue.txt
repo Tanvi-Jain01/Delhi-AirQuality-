@@ -1,0 +1,23 @@
+
+ISSUE:
+    if x == "nox":
+        x = nox
+    elif x == "no2":
+        x = no2
+    elif x == "o3":
+        x = o3
+    elif x == "pm10":
+        x = pm10
+    if y == "nox":
+        y = nox
+    elif y == "no2":
+        y = no2
+    elif y == "o3":
+        y = o3
+    elif y == "pm10":
+        y = pm10
+#-----------------------------------------------   
+        
+The code has not taken 'pm25' into consideration. 
+        
+(I think the function should be more generalized to take any attribute in consideration and not only the specified ones.)
