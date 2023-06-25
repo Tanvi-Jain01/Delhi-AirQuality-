@@ -1,0 +1,3 @@
+Error in Lasso plot
+The error is in producing 15(or n) partition in colormesh when lasso is giving a constant value, as constant value cant be divided into 15(or n) partition.
+As a solution I have added a try catch block so it will ignore that error.
