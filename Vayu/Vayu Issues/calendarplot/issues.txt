@@ -1,0 +1,8 @@
+if t == 12:
+start = dt.datetime(int(year), 1, 1)
+
+
+
+here 1 represents the month value. In this case, it's hardcoded as 1, indicating January for December plot,
+which is making issue in plots of Jan and Dec.
+hence, 1 should be replaced with t
